@@ -1,0 +1,30 @@
+$ git log --oneline --graph --all
+* 8d91e15 Añade sombra al botón principal y cierra la issue #2
+*   befd517 Resuelve el conflicto de cover.css
+|\  
+| * 06fcf1a Cambia el color del botón principal a verde oscuro
+* | ae63e03 Cambia el color del botón principal a morado
+|/  
+*   afdcfba Merge pull request #2 from OOramas/custom-text
+|\  
+| * 93eee9f Afina el eslogan de la portada
+| * 4a4ecd7 Ajusta el texto del pie de página
+| * 1972606 Personaliza la portada para la startup
+|/  
+* 8e04478 Corrige enlace de portada para validación MkDocs
+* bda380c Añade documentación con MkDocs e integración continua
+* 4ec1f87 Añade la página de la startup y su hoja de estilos
+* a557222 Initial commit
+
+$ git remote -v
+espejo	https://github.com/OOramas/git-work-espejo.git (fetch)
+espejo	https://github.com/OOramas/git-work-espejo.git (push)
+origin	https://github.com/OOramas/git-work.git (fetch)
+origin	https://github.com/OOramas/git-work.git (push)
+
+$ git tag
+0.1.0
+
+$ git log --format="%an <%ae>" | sort -u
+OOramas <oscar.oramas@gmail.com>
+Óscar Oramas Falcón <oscar.oramas@gmail.com>
